@@ -42,7 +42,7 @@ function agregarMetodo() {
       }
     
       agregarMetodo() {
-        // Verificamos que nombre y edad estén definidos
+         
         if (this.nombre && this.edad) {
           return this.nombre+ " , " +this.edad + "años";
         } else {
