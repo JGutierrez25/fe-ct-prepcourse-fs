@@ -42,7 +42,7 @@ function agregarMetodo() {
       }
     
       agregarMetodo() {
-         
+
         if (this.nombre && this.edad) {
           return this.nombre+ " , " +this.edad + "años";
         } else {
