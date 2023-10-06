@@ -16,7 +16,9 @@ function crearUsuario() {
         this.nombre = nombre;
         this.email = email;
         this.password = password;
+        
       }
+   
   
       saludar() {
         return "Hola, mi nombre es "+nombre}
